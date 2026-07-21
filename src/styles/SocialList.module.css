@@ -1,0 +1,6 @@
+.SocialList {
+    display: flex;
+    justify-content: center;
+    width: 88%;
+    margin: 0.5em auto;
+}

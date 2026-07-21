@@ -1,0 +1,6 @@
+.PFP {
+    max-width: clamp(6em, 16em, 80%);
+    margin: 0.75em auto 0 auto;
+    border: var(--border-width)  solid var(--border-color);
+    border-radius: 50%;
+}

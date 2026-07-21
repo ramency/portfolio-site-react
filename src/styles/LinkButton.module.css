@@ -1,0 +1,25 @@
+.LinkButton {
+    display: flex;
+    box-sizing: border-box;
+    margin: 0.25em auto;
+    padding: 0.6em 0;
+    width: 90%;
+
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--button-color);
+    font-weight: 100;
+    font-size: 1.2rem;
+
+    border: var(--border-width) solid var(--border-color);
+    border-radius: var(--border-radius);
+
+    &:hover {
+        background-color: var(--hover-color);
+    }
+
+    h3 {
+        margin: 0.1em;
+    }
+}

@@ -1,0 +1,22 @@
+.ToolBar {
+    display: flex;
+    height: 5svh;
+    /* margin-right: 12px; Edge scrollbars are different... */
+    padding-left: 0.25em;
+
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: var(--card-color);
+
+    border: var(--border-width)  solid var(--border-color);
+    border-radius: var(--border-radius);
+
+    grid-area: toolbar;
+
+
+    @media only screen and (max-width: 767px) {
+        /* margin-right: 0; Doesn't work with Edge... */
+        height: 6svh;
+    }
+}

@@ -1,0 +1,39 @@
+.ThemeButton {
+    display: block;
+    aspect-ratio: 1 / 1;
+    min-block-size: 2svh;
+    height: 75%;
+
+    margin: 0.25em 0.15em;
+
+    border: var(--border-width)  solid var(--border-color);
+    border-radius: 40%;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.Theme__Sand {
+    background-color: #FFB26F;
+
+    &:hover {
+        background-color: #DE8F5F;
+    }
+}
+
+.Theme__Ocean {
+    background-color: #D2DAFF;
+
+    &:hover {
+        background-color: #EEF1FF;
+    }
+}
+
+.Theme__Grass {
+    background-color: #B3C99C;
+
+    &:hover {
+        background-color: #A4BC92;
+    }
+}

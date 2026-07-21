@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    justify-items: center;
+}
+
+:root {
+    --text: rgb(54 54 54 / 0.95);
+    --text-h: #1a1a1a;
+    --link: #022ec2;
+    --shadow: rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
+
+    --spacing: 0.6rem;
+    --border-radius: 0.75rem;
+    --border-width: clamp(0.175rem, 0.175rem, 0.25rem);
+
+    /* Device size widths */
+    --x-small-device: 600px; /* max-width */
+    --small-device: 600px; /* min-width */
+    --medium-device: 768px; /* min-width */
+    --large-device: 992px; /* min-width */
+    --x-large-device: 1200px; /* min-width */
+
+    --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
+    --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
+    --mono: ui-monospace, Consolas, monospace;
+
+    font: 1em var(--sans);
+    letter-spacing: 0.12px;
+
+    @media (max-width: 768px) {
+        font-size: 1.4em;
+    }
+
+    color-scheme: light dark;
+    color: var(--text);
+    background: var(--bg-color);
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    @media (max-width: 1024px) {
+        --border-width: clamp(0.2rem, 0.2rem, 0.3rem);
+    }
+}
+
+/*
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text: #9ca3af;
+    --text-h: #f3f4f6;
+    --bg: #16171d;
+    --border: #2e303a;
+    --code-bg: #1f2028;
+    --accent: #c084fc;
+    --accent-bg: rgba(192, 132, 252, 0.15);
+    --accent-border: rgba(192, 132, 252, 0.5);
+    --social-bg: rgba(47, 48, 58, 0.5);
+    --shadow:
+      rgba(0, 0, 0, 0.4) 0 10px 15px -3px, rgba(0, 0, 0, 0.25) 0 4px 6px -2px;
+  }
+
+  #social .button-icon {
+    filter: invert(1) brightness(2);
+  }
+}
+*/
+
+#root {
+    margin: 0 auto;
+    min-height: 95svh;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--heading);
+    font-weight: 650;
+    color: var(--text-h);
+}
+
+h1 {
+    font-size: 2em;
+    letter-spacing: -0.06rem;
+    margin: 20px 0;
+    @media (max-width: 1024px) {
+        font-size: 24px;
+        margin: 16px 0;
+    }
+}
+
+h2 {
+    font-size: 1.5em;
+    letter-spacing: -0.04rem;
+    margin: 0 0 8px;
+    @media (max-width: 1024px) {
+        font-size: 20px;
+    }
+}
+
+h3 {
+    font-size: 1.25em;
+    letter-spacing: -0.02rem;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+p {
+    margin: 0;
+    line-height: 1.25;
+    text-wrap-style: pretty;
+}
+
+a {
+    text-decoration: none;
+    color: var(--link);
+    font-weight: 500;
+}

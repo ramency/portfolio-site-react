@@ -1,0 +1,33 @@
+.SocialButton {
+    display: block;
+    aspect-ratio: 1 / 1;
+    block-size: clamp(1.25em, 2.3em, 3.5em);
+    margin: 0 0.15em;
+
+    align-content: center;
+    justify-items: center;
+
+    background-color: var(--button-color);
+    font-weight: 600;
+    font-size: 1.5rem;
+
+    border: var(--border-width) solid var(--border-color);
+    border-radius: 50%;
+
+    &:hover {
+        cursor: pointer;
+        background-color: var(--hover-color);
+    }
+
+    @media only screen and (840px < width < 1200px) {
+        block-size: clamp(1.25em, 2em, 3.5em);
+    }
+
+    @media only screen and (768px < width < 840px) {
+        block-size: clamp(1.8em, 1.8em, 2.5em);
+    }
+}
+
+img {
+    max-block-size: 75%;
+}

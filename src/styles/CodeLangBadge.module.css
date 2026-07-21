@@ -1,0 +1,31 @@
+.CodeLangBadge {
+    display: flex;
+    max-height: 2.5em;
+    min-height: 2.5em;
+    padding: 0 0.2em;
+
+    justify-content: center;
+
+    background-color: var(--button-color);
+
+    border: var(--border-width) solid var(--border-color);
+    border-radius: var(--border-radius);
+}
+
+.CodeLangIconContainer {
+    display: block;
+    max-width: 2.3em;
+    max-height: 2.3em;
+    justify-items: center;
+    align-content: center;
+}
+
+.CodeLangIcon {
+    display: flex;
+    height: 2.3em;
+}
+
+.CodeLangName{
+    display: flex;
+    margin: auto 0 auto 0.5em;
+}

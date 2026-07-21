@@ -1,0 +1,172 @@
+{
+  "Aside": {
+    "Header": {
+      "title": "ramency"
+    },
+    "Body": {
+      "links": {
+        "loc": {
+          "about_me": "About Me",
+          "resume": "Resume",
+          "projects": "Projects",
+          "certificates": "Certificates"
+        },
+        "ext": {
+          "github": "GitHub",
+          "wakatime": "WakaTime",
+          "discord": {
+            "name": "Discord",
+            "tooltip": "Copy Username",
+            "tooltip_copied": "Copied!"
+          },
+          "email": "Email"
+        }
+      }
+    }
+  },
+  "Main": {
+    "Cards": {
+      "About_Me": {
+        "title": "About Me",
+        "subtitle": "Hey! Good to see you!",
+        "content": {
+          "p_01": "I'm ramency. I'm known under different names too, I mainly use this one for my privacy though. Until recently I've been in an apprenticeship for software development at a rehabilitation facility.",
+          "p_02": "In the past I was able to gather quite some experience already, for example in web development, game development, emulation and embedded systems. That got me into contact with quite a few programming languages and frameworks. A couple examples are Rust, C, C#, Java, Kotlin, PHP, React, Vite, TypeScript and more. Further information in section \"Projects\"."
+        }
+      },
+      "Projects": {
+        "title": "Projects",
+        "subtitle": "Programming languages I've worked with:",
+        "content": {
+          "web": {
+            "title": "Web development",
+            "description": "The Better Place Community Wiki. Created by the wishes of the founder of Bplace, a site where you can draw pixels on the world map. Runs on Mediawiki in Docker containers, routing via Caddy, firewall, ports, security updates; all set up and configured on my own. Additionally, this website, as well as two older variants (one made purely with TypeScript and Vite, the other only with JavaScript.",
+            "links": {
+              "link_01": "\"Better Place Community Wiki\"",
+              "link_02": "\"ramency's portfolio\" >> This site on GitHub"
+            }
+          },
+          "rust": {
+            "title": "Rust",
+            "description": "Interested in Rust because of its unique memory management (borrowing, referencing etc.). Also interesting to me because of its high speed compared to languages like Python. First experiences made by starting to develop a GameBoy Emulator. See link. Siehe Link.",
+            "links": {
+              "link_01": "\"GameBoy Emulator\" on GitHub"
+            }
+          },
+          "actionscript": {
+            "title": "ActionScript",
+            "description": "Developed a UI Skin for a Skyrim Mod. In part made with ActionScript (Shockwave Flash).",
+            "links": {
+              "link_01": "\"QuickLoot IE Vanilla Skin\" on NexusMods"
+            }
+          },
+          "java_kotlin": {
+            "title": "Java, Kotlin",
+            "description": "Java was my first programming language. I like to play Minecraft making me experiment with mods at a young age. In addition the programming language I learnt in vocational school during my apprenticeship at MIFCOM. I wrote a practice mod as well as a small functional mod in Java for Minecraft. In Kotlin I made a \"Terminal-Coffeemaker\" with thorough documentation (German Project). See link.",
+            "links": {
+              "link_01": "\"more-o-copper\" Practice mod on GitHub",
+              "link_02": "\"Kaffeemaschine\" on GitHub"
+            }
+          },
+          "csharp": {
+            "title": "C#",
+            "description": "Initial experience gathered with Unity, made a test game by following a tutorial, expanded it with my own ideas after. See link.",
+            "links": {
+              "link_01": "\"ruby\" on GitHub"
+            }
+          },
+          "c": {
+            "title": "C",
+            "description": "Used for my project at the rehabilitation facility in Abensberg. The goal was to develop an employee time tracking system. The planned components were an ESP32, NFC chips and readers, etc. The ESP32 was supposed to be programmed via ESP-IDF in C."
+          }
+        }
+      },
+      "Resume": {
+        "title": "Resume",
+        "content": {
+          "app_BBW_Abensberg": {
+            "date": "25.08.2025 - 13.07.2026",
+            "title": "Apprenticeship as IT Software Development Specialist",
+            "company": "BBW St. Franziskus Abensberg - (No Diploma)",
+            "bullet_point_01": "Work on a employee time tracking project",
+            "bullet_point_02": "Set up of backend server with PostgreSQL and Docker",
+            "bullet_point_03": "Practice project \"Kaffeemaschine\" >> terminal based coffee maker"
+          },
+          "etc_Rehab": {
+            "date": "20.04.2024 - 31.07.2025",
+            "title": "Rehabilitation Program",
+            "company": "Diakonie Hasenbergl",
+            "bullet_point_01": "Recovery of stress tolerance at the workplace",
+            "bullet_point_02": "Primarily work with wood, planning and construction of work pieces",
+            "bullet_point_03": "Training of social competences and team skills"
+          },
+          "app_MIFCOM": {
+            "date": "01.09.2021 - 19.04.2024",
+            "title": "Apprenticeship as IT System Integration Specialist",
+            "company": "MIFCOM GmbH - (No diploma)",
+            "bullet_point_01": "Assembly of PC systems in manufacturing",
+            "bullet_point_02": "Diagnosis, repair and testing of broken PC systems",
+            "bullet_point_03": "Helping out 1st- and 2nd-Level-Support by pre-qualifying tickets",
+            "bullet_point_04": "Correspondence with customers in regards to support inquiries",
+            "bullet_point_05": "Gathering statistical date in regards to repair / 3rd-Level-Support"
+          },
+          "int_MIFCOM": {
+            "date": "01.07.2021 – 31.08.2021",
+            "title": "Internship as IT Specialist",
+            "company": "MIFCOM GmbH",
+            "bullet_point_01": "Assembly of PC systems in manufacturing",
+            "bullet_point_02": "Replacement of broken PC components",
+            "bullet_point_03": "Installation of internal workplace PCs"
+          },
+          "int_retail": {
+            "date": "2018 & 2019",
+            "title": "Internships in retail",
+            "company": "Conrad Electronic SE",
+            "bullet_point_01": "Work in modelmaking department",
+            "bullet_point_02": "Refilling empty products",
+            "bullet_point_03": "Consulting customers with easy questions",
+            "bullet_point_04": "Sorting of incoming shipments",
+            "bullet_point_05": "Supporting customers in finding fitting products"
+          },
+          "int_kindergarden": {
+            "date": "2018",
+            "title": "Internships in a kindergarden",
+            "company": "Städtisches Haus für Kinder, Landeshauptstadt München",
+            "bullet_point_01": "Watching 24 Children between 3 and 6 years old",
+            "bullet_point_02": "Supporting staff in daily routines",
+            "bullet_point_03": "Conducting hygiene procedures"
+          }
+        }
+      },
+      "Certificates": {
+        "title": "Certificates",
+        "description": "I'll gladly send my certificates on request.",
+        "subtitle": "Available Certificates:",
+        "content": {
+          "work": {
+            "title": "Work",
+            "cert_02": {
+              "text": "Employer's reference apprenticeship at MIFCOM",
+              "link": "mailto:c.szanto@ramency.dev?subject=Portfolio%20Certificate%20Request%20%5BApprenticeship%20Certificate%20MIFCOM%5D"
+            },
+            "cert_01": {
+              "text": "Employer's reference internship at MIFCOM",
+              "link": "mailto:c.szanto@ramency.dev?subject=Portfolio%20Certificate%20Request%20%5BInternship%20Certificate%20MIFCOM%5D"
+            }
+          },
+          "school": {
+            "title": "School",
+            "cert_02": {
+              "text": "Intermediate Diploma ⌀ 1,7",
+              "link": "mailto:c.szanto@ramency.dev?subject=Portfolio%20Certificate%20Request%20%5BIntermediate%20Diploma%5D"
+            },
+            "cert_01": {
+              "text": "Qualifying Diploma ⌀ 1,3",
+              "link": "mailto:c.szanto@ramency.dev?subject=Portfolio%20Certificate%20Request%20%5BQualifying%20Diploma%5D"
+            }
+          }
+        }
+      }
+    }
+  }
+}

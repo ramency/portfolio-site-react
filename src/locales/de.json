@@ -1,0 +1,172 @@
+{
+  "Aside": {
+    "Header": {
+      "title": "ramency"
+    },
+    "Body": {
+      "links": {
+        "loc": {
+          "about_me": "Über mich",
+          "resume": "Lebenslauf",
+          "projects": "Projekte",
+          "certificates": "Zeugnisse"
+        },
+        "ext": {
+          "github": "GitHub",
+          "wakatime": "WakaTime",
+          "discord": {
+            "name": "Discord",
+            "tooltip": "Nutzernamen kopieren",
+            "tooltip_copied": "Kopiert!"
+          },
+          "email": "E-Mail"
+        }
+      }
+    }
+  },
+  "Main": {
+    "Cards": {
+      "About_Me": {
+        "title": "Über mich",
+        "subtitle": "Hey! Schön, das du da bist!",
+        "content": {
+          "p_01": "Ich bin ramency. Man kennt mich auch unter anderen Namen, allerdings nutze ich diesen online, für Privatsphäre. Bis vor kurzem war ich in einem Berufsbildungswerk in einer Ausbildung für Fachinformatik Anwendungsentwicklung.",
+          "p_02": "Ich habe schon einiges an Erfahrung sammeln können, z.B. im Bereich Web-Development, Game Development, Emulation und ein wenig mit Embedded Systems. Dadurch bin ich mit einigen Programmiersprachen und Frameworks, wie z.B. Rust, C, C#, Java, Kotlin, PHP, React, Vite, TypeScript und mehr in Berührung gekommen. Mehr dazu gibt es im Abschnitt \"Projekte\"."
+        }
+      },
+      "Projects": {
+        "title": "Projekte",
+        "subtitle": "Sprachen mit denen ich gearbeitet habe:",
+        "content": {
+          "web": {
+            "title": "Web-Entwicklung",
+            "description": "Das Better Place Community Wiki. Erstellt im Auftrag des Gründers von Bplace, einer Seite bei der man auf der Weltkarte Pixel setzen kann. Läuft mit MediaWiki in Docker Containern, wird geroutet mit Caddy, Firewall, Ports, Sicherheitsupdates etc. alles selbst eingerichtet. Außerdem diese Website, sowie zwei ältere Versionen dieser Website (Pures Typescript mit Vite & Pures Javascript).",
+            "links": {
+              "link_01": "\"Better Place Community Wiki\"",
+              "link_02": "\"ramency's portfolio\" >> Diese Seite auf GitHub"
+            }
+          },
+          "rust": {
+            "title": "Rust",
+            "description": "Interesse aufgrund von einzigartigem Memory-Management (Borrowing, Referencing etc.). Außerdem interessant für mich aufgrund von Geschwindigkeit im Vergleich zu High-Level-Sprachen wie z.B. Python. Erste Erfahrungen durch Beginn von Entwicklung eines GameBoy Emulators gemacht. Siehe Link.",
+            "links": {
+              "link_01": "\"GameBoy Emulator\" auf GitHub"
+            }
+          },
+          "actionscript": {
+            "title": "ActionScript",
+            "description": "UI Skin für eine Skyrim-Mod entwickelt. Unter anderem mit ActionScript (Shockwave Flash) gearbeitet.",
+            "links": {
+              "link_01": "\"QuickLoot IE Vanilla Skin\" auf NexusMods"
+            }
+          },
+          "java_kotlin": {
+            "title": "Java, Kotlin",
+            "description": "Java war meine erste Programmiersprache. Ich spiele gerne Minecraft und habe deswegen früh mit Mods experimentiert. Zudem die Programmiersprache die wir in der Berufsschule während meiner Ausbildung bei MIFCOM gelernt haben. Ich habe in Java eine Übungs-Mod und eine kleine funktionale Mod für Minecraft entwickelt. In Kotlin eine \"Terminal-Kaffeemaschine\" mit ausführlicher Dokumentation. Siehe Link.",
+            "links": {
+              "link_01": "\"more-o-copper\" Übungs-Mod auf GitHub",
+              "link_02": "\"Kaffeemaschine\" auf GitHub"
+            }
+          },
+          "csharp": {
+            "title": "C#",
+            "description": "Erste Erfahrungen mit Unity gesammelt, Testspiel nach Anleitung erstellt, anschließend mit eigenen Ideen erweitert. Siehe Link.",
+            "links": {
+              "link_01": "\"ruby\" auf GitHub"
+            }
+          },
+          "c": {
+            "title": "C",
+            "description": "Benutzt für Projekt im BBW Abensberg. Ziel war ein Zeiterfassungssystem zu entwickeln (mit ESP32, NFC Chips und Reader usw.). Der ESP32 sollte über ESP-IDF mit C programmiert werden."
+          }
+        }
+      },
+      "Resume": {
+        "title": "Lebenslauf",
+        "content": {
+          "app_BBW_Abensberg": {
+            "date": "25.08.2025 - 13.07.2026",
+            "title": "Ausbildung Fachinformatik für Anwendungsentwicklung",
+            "company": "BBW St. Franziskus Abensberg - (Ohne Abschluss)",
+            "bullet_point_01": "Arbeit an Projekt zur Arbeitszeiterfassung",
+            "bullet_point_02": "Einrichten von Backend-Server mit PostgreSQL und Docker",
+            "bullet_point_03": "Übungsprojekt \"Kaffeemaschine\" >> Terminalbasierte Kaffeemaschine"
+          },
+          "etc_Rehab": {
+            "date": "20.04.2024 - 31.07.2025",
+            "title": "Rehabilitationsmaßnahme",
+            "company": "Diakonie Hasenbergl",
+            "bullet_point_01": "Wiederaufbau von Belastbarkeit im Arbeitsalltag",
+            "bullet_point_02": "Primär Arbeit mit Holz, Planung und Bearbeitung von Werkstücken",
+            "bullet_point_03": "Training von Sozialkompetenzen und Teamfähigkeit"
+          },
+          "app_MIFCOM": {
+            "date": "01.09.2021 - 19.04.2024",
+            "title": "Ausbildung Fachinformatik für Systemintegration",
+            "company": "MIFCOM GmbH - (Ohne Abschluss)",
+            "bullet_point_01": "Montage von PC-Systemen in der Produktion",
+            "bullet_point_02": "Diagnose, Reparatur und Testen von defekten PC-Systemen",
+            "bullet_point_03": "Unterstützung von 1st- und 2nd-Level-Support durch Vorqualifizierung von Tickets",
+            "bullet_point_04": "Korrespondenz mit Kunden im Rahmen des Service",
+            "bullet_point_05": "Erstellung von Statistiken zur Repair / 3rd-Level-Support"
+          },
+          "int_MIFCOM": {
+            "date": "01.07.2021 – 31.08.2021",
+            "title": "Praktikum Fachinformatik",
+            "company": "MIFCOM GmbH",
+            "bullet_point_01": "Montage von PC-Systemen in der Produktion",
+            "bullet_point_02": "Austausch von defekten Computerkomponenten",
+            "bullet_point_03": "Montage von Arbeitsplatzrechnern im Haus"
+          },
+          "int_retail": {
+            "date": "2018 & 2019",
+            "title": "Praktika im Einzelhandel",
+            "company": "Conrad Electronic SE",
+            "bullet_point_01": "Arbeit in der Modellbauabteilung",
+            "bullet_point_02": "Einräumen und Auffüllen von Waren",
+            "bullet_point_03": "Beratung von Kunden bei einfachen Fragen",
+            "bullet_point_04": "Sortieren von Lieferungen",
+            "bullet_point_05": "Unterstützung von Kunden bei der Produktsuche"
+          },
+          "int_kindergarden": {
+            "date": "2018",
+            "title": "Praktika im Kindergarten",
+            "company": "Städtisches Haus für Kinder, Landeshauptstadt München",
+            "bullet_point_01": "Aufpassen auf 24 Kinder zwischen 3 und 6 Jahren",
+            "bullet_point_02": "Unterstützung bei Tagesabläufen",
+            "bullet_point_03": "Durchführen von Hygienemaßnahmen"
+          }
+        }
+      },
+      "Certificates": {
+        "title": "Zeugnisse",
+        "description": "Zeugnisse sende ich gerne auf Anfrage per E-Mail.",
+        "subtitle": "Verfügbare Zeugnisse:",
+        "content": {
+          "work": {
+            "title": "Berufsleben",
+            "cert_02": {
+              "text": "Arbeitszeugnis Ausbildung MIFCOM",
+              "link": "mailto:c.szanto@ramency.dev?subject=Portfolio%20Zeugnisanfrage%20%5BAusbildungszeugnis%20MIFCOM%5D"
+            },
+            "cert_01": {
+              "text": "Praktikumszeugnis Praktikum MIFCOM",
+              "link": "mailto:c.szanto@ramency.dev?subject=Portfolio%20Zeugnisanfrage%20%5BPraktikumszeugnis%20MIFCOM%5D"
+            }
+          },
+          "school": {
+            "title": "Schulzeugnisse",
+            "cert_02": {
+              "text": "Mittlerer Schulabschluss (Zeugnis) ⌀ 1,7",
+              "link": "mailto:c.szanto@ramency.dev?subject=Portfolio%20Zeugnisanfrage%20%5BMSA%20Zeugnis%5D"
+            },
+            "cert_01": {
+              "text": "Qualifizierender Hauptschulabschluss (Zeugnis) ⌀ 1,3",
+              "link": "mailto:c.szanto@ramency.dev?subject=Portfolio%20Zeugnisanfrage%20%5BQuali%20Zeugnis%5D"
+            }
+          }
+        }
+      }
+    }
+  }
+}

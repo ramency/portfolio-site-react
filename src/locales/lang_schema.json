@@ -1,0 +1,692 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Generated Schema",
+  "type": "object",
+  "properties": {
+    "Aside": {
+      "type": "object",
+      "properties": {
+        "Header": {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "title"
+          ]
+        },
+        "Body": {
+          "type": "object",
+          "properties": {
+            "links": {
+              "type": "object",
+              "properties": {
+                "loc": {
+                  "type": "object",
+                  "properties": {
+                    "about_me": {
+                      "type": "string"
+                    },
+                    "resume": {
+                      "type": "string"
+                    },
+                    "projects": {
+                      "type": "string"
+                    },
+                    "certificates": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "about_me",
+                    "resume",
+                    "projects",
+                    "certificates"
+                  ]
+                },
+                "ext": {
+                  "type": "object",
+                  "properties": {
+                    "github": {
+                      "type": "string"
+                    },
+                    "wakatime": {
+                      "type": "string"
+                    },
+                    "discord": {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        },
+                        "tooltip": {
+                          "type": "string"
+                        },
+                        "tooltip_copied": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "name",
+                        "tooltip",
+                        "tooltip_copied"
+                      ]
+                    },
+                    "email": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "github",
+                    "wakatime",
+                    "discord",
+                    "email"
+                  ]
+                }
+              },
+              "required": [
+                "loc",
+                "ext"
+              ]
+            }
+          },
+          "required": [
+            "links"
+          ]
+        }
+      },
+      "required": [
+        "Header",
+        "Body"
+      ]
+    },
+    "Main": {
+      "type": "object",
+      "properties": {
+        "Cards": {
+          "type": "object",
+          "properties": {
+            "About_Me": {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "subtitle": {
+                  "type": "string"
+                },
+                "content": {
+                  "type": "object",
+                  "properties": {
+                    "p_01": {
+                      "type": "string"
+                    },
+                    "p_02": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "p_01",
+                    "p_02"
+                  ]
+                }
+              },
+              "required": [
+                "title",
+                "subtitle",
+                "content"
+              ]
+            },
+            "Resume": {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "content": {
+                  "type": "object",
+                  "properties": {
+                    "app_BBW_Abensberg": {
+                      "type": "object",
+                      "properties": {
+                        "date": {
+                          "type": "string"
+                        },
+                        "title": {
+                          "type": "string"
+                        },
+                        "company": {
+                          "type": "string"
+                        },
+                        "bullet_point_01": {
+                          "type": "string"
+                        },
+                        "bullet_point_02": {
+                          "type": "string"
+                        },
+                        "bullet_point_03": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "date",
+                        "title",
+                        "company",
+                        "bullet_point_01",
+                        "bullet_point_02",
+                        "bullet_point_03"
+                      ]
+                    },
+                    "etc_Rehab": {
+                      "type": "object",
+                      "properties": {
+                        "date": {
+                          "type": "string"
+                        },
+                        "title": {
+                          "type": "string"
+                        },
+                        "company": {
+                          "type": "string"
+                        },
+                        "bullet_point_01": {
+                          "type": "string"
+                        },
+                        "bullet_point_02": {
+                          "type": "string"
+                        },
+                        "bullet_point_03": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "date",
+                        "title",
+                        "company",
+                        "bullet_point_01",
+                        "bullet_point_02",
+                        "bullet_point_03"
+                      ]
+                    },
+                    "app_MIFCOM": {
+                      "type": "object",
+                      "properties": {
+                        "date": {
+                          "type": "string"
+                        },
+                        "title": {
+                          "type": "string"
+                        },
+                        "company": {
+                          "type": "string"
+                        },
+                        "bullet_point_01": {
+                          "type": "string"
+                        },
+                        "bullet_point_02": {
+                          "type": "string"
+                        },
+                        "bullet_point_03": {
+                          "type": "string"
+                        },
+                        "bullet_point_04": {
+                          "type": "string"
+                        },
+                        "bullet_point_05": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "date",
+                        "title",
+                        "company",
+                        "bullet_point_01",
+                        "bullet_point_02",
+                        "bullet_point_03",
+                        "bullet_point_04",
+                        "bullet_point_05"
+                      ]
+                    },
+                    "int_MIFCOM": {
+                      "type": "object",
+                      "properties": {
+                        "date": {
+                          "type": "string"
+                        },
+                        "title": {
+                          "type": "string"
+                        },
+                        "company": {
+                          "type": "string"
+                        },
+                        "bullet_point_01": {
+                          "type": "string"
+                        },
+                        "bullet_point_02": {
+                          "type": "string"
+                        },
+                        "bullet_point_03": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "date",
+                        "title",
+                        "company",
+                        "bullet_point_01",
+                        "bullet_point_02",
+                        "bullet_point_03"
+                      ]
+                    },
+                    "int_retail": {
+                      "type": "object",
+                      "properties": {
+                        "date": {
+                          "type": "string"
+                        },
+                        "title": {
+                          "type": "string"
+                        },
+                        "company": {
+                          "type": "string"
+                        },
+                        "bullet_point_01": {
+                          "type": "string"
+                        },
+                        "bullet_point_02": {
+                          "type": "string"
+                        },
+                        "bullet_point_03": {
+                          "type": "string"
+                        },
+                        "bullet_point_04": {
+                          "type": "string"
+                        },
+                        "bullet_point_05": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "date",
+                        "title",
+                        "company",
+                        "bullet_point_01",
+                        "bullet_point_02",
+                        "bullet_point_03",
+                        "bullet_point_04",
+                        "bullet_point_05"
+                      ]
+                    },
+                    "int_kindergarden": {
+                      "type": "object",
+                      "properties": {
+                        "date": {
+                          "type": "string"
+                        },
+                        "title": {
+                          "type": "string"
+                        },
+                        "company": {
+                          "type": "string"
+                        },
+                        "bullet_point_01": {
+                          "type": "string"
+                        },
+                        "bullet_point_02": {
+                          "type": "string"
+                        },
+                        "bullet_point_03": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "date",
+                        "title",
+                        "company",
+                        "bullet_point_01",
+                        "bullet_point_02",
+                        "bullet_point_03"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "app_BBW_Abensberg",
+                    "etc_Rehab",
+                    "app_MIFCOM",
+                    "int_MIFCOM",
+                    "int_retail",
+                    "int_kindergarden"
+                  ]
+                }
+              },
+              "required": [
+                "title",
+                "content"
+              ]
+            },
+            "Projects": {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "subtitle": {
+                  "type": "string"
+                },
+                "content": {
+                  "type": "object",
+                  "properties": {
+                    "web": {
+                      "type": "object",
+                      "properties": {
+                        "title": {
+                          "type": "string"
+                        },
+                        "description": {
+                          "type": "string"
+                        },
+                        "links": {
+                          "type": "object",
+                          "properties": {
+                            "link_01": {
+                              "type": "string"
+                            },
+                            "link_02": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "link_01"
+                          ]
+                        }
+                      },
+                      "required": [
+                        "title",
+                        "description",
+                        "links"
+                      ]
+                    },
+                    "rust": {
+                      "type": "object",
+                      "properties": {
+                        "title": {
+                          "type": "string"
+                        },
+                        "description": {
+                          "type": "string"
+                        },
+                        "links": {
+                          "type": "object",
+                          "properties": {
+                            "link_01": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "link_01"
+                          ]
+                        }
+                      },
+                      "required": [
+                        "title",
+                        "description",
+                        "links"
+                      ]
+                    },
+                    "actionscript": {
+                      "type": "object",
+                      "properties": {
+                        "title": {
+                          "type": "string"
+                        },
+                        "description": {
+                          "type": "string"
+                        },
+                        "links": {
+                          "type": "object",
+                          "properties": {
+                            "link_01": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "link_01"
+                          ]
+                        }
+                      },
+                      "required": [
+                        "title",
+                        "description",
+                        "links"
+                      ]
+                    },
+                    "java_kotlin": {
+                      "type": "object",
+                      "properties": {
+                        "title": {
+                          "type": "string"
+                        },
+                        "description": {
+                          "type": "string"
+                        },
+                        "links": {
+                          "type": "object",
+                          "properties": {
+                            "link_01": {
+                              "type": "string"
+                            },
+                            "link_02": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "link_01",
+                            "link_02"
+                          ]
+                        }
+                      },
+                      "required": [
+                        "title",
+                        "description",
+                        "links"
+                      ]
+                    },
+                    "csharp": {
+                      "type": "object",
+                      "properties": {
+                        "title": {
+                          "type": "string"
+                        },
+                        "description": {
+                          "type": "string"
+                        },
+                        "links": {
+                          "type": "object",
+                          "properties": {
+                            "link_01": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "link_01"
+                          ]
+                        }
+                      },
+                      "required": [
+                        "title",
+                        "description",
+                        "links"
+                      ]
+                    },
+                    "c": {
+                      "type": "object",
+                      "properties": {
+                        "title": {
+                          "type": "string"
+                        },
+                        "description": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "title",
+                        "description"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "web",
+                    "rust",
+                    "actionscript",
+                    "java_kotlin",
+                    "csharp",
+                    "c"
+                  ]
+                }
+              },
+              "required": [
+                "title",
+                "subtitle",
+                "content"
+              ]
+            },
+            "Certificates": {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "subtitle": {
+                  "type": "string"
+                },
+                "content": {
+                  "type": "object",
+                  "properties": {
+                    "work": {
+                      "type": "object",
+                      "properties": {
+                        "title": {
+                          "type": "string"
+                        },
+                        "cert_02": {
+                          "type": "object",
+                          "properties": {
+                            "text": {
+                              "type": "string"
+                            },
+                            "link": {
+                              "type": "string",
+                              "format": "email"
+                            }
+                          },
+                          "required": [
+                            "text",
+                            "link"
+                          ]
+                        },
+                        "cert_01": {
+                          "type": "object",
+                          "properties": {
+                            "text": {
+                              "type": "string"
+                            },
+                            "link": {
+                              "type": "string",
+                              "format": "email"
+                            }
+                          },
+                          "required": [
+                            "text",
+                            "link"
+                          ]
+                        }
+                      },
+                      "required": [
+                        "title",
+                        "cert_02",
+                        "cert_01"
+                      ]
+                    },
+                    "school": {
+                      "type": "object",
+                      "properties": {
+                        "title": {
+                          "type": "string"
+                        },
+                        "cert_02": {
+                          "type": "object",
+                          "properties": {
+                            "text": {
+                              "type": "string"
+                            },
+                            "link": {
+                              "type": "string",
+                              "format": "email"
+                            }
+                          },
+                          "required": [
+                            "text",
+                            "link"
+                          ]
+                        },
+                        "cert_01": {
+                          "type": "object",
+                          "properties": {
+                            "text": {
+                              "type": "string"
+                            },
+                            "link": {
+                              "type": "string",
+                              "format": "email"
+                            }
+                          },
+                          "required": [
+                            "text",
+                            "link"
+                          ]
+                        }
+                      },
+                      "required": [
+                        "title",
+                        "cert_02",
+                        "cert_01"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "work",
+                    "school"
+                  ]
+                }
+              },
+              "required": [
+                "title",
+                "description",
+                "subtitle",
+                "content"
+              ]
+            }
+          },
+          "required": [
+            "About_Me",
+            "Resume",
+            "Projects",
+            "Certificates"
+          ]
+        }
+      },
+      "required": [
+        "Cards"
+      ]
+    }
+  },
+  "required": [
+    "Aside",
+    "Main"
+  ]
+}

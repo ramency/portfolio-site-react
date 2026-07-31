@@ -1,6 +1,6 @@
 .CodeLangBadge {
     display: flex;
-    height: 2.7em;
+    height: 3rem;
     padding: 0 0.2em;
 
     justify-content: center;
@@ -21,11 +21,12 @@
 
 .CodeLangIcon {
     display: flex;
-    height: 1.9em;
-    margin: 0 0.2em
+    height: 2rem;
+    margin: 0 0.2rem
 }
 
 .CodeLangName{
     display: flex;
     margin: auto 0 auto 0.5em;
+    font-size: 1.2rem;
 }

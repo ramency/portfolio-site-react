@@ -8,11 +8,11 @@
     --border-radius: 0.75rem;
     --border-width: clamp(0.175rem, 0.175rem, 0.25rem);
 
-    --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
-    --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
+    --sans: system-ui, 'Segoe UI', Roboto;
+    --heading: system-ui, 'Segoe UI', Roboto;
     --mono: ui-monospace, Consolas, monospace;
 
-    font: 1em var(--sans);
+    font: 1em var(--sans), sans-serif;
 
     letter-spacing: 0.12px;
 
@@ -73,7 +73,7 @@ h1,
 h2,
 h3 {
     padding: 0.2em 0.6rem;
-    font-family: var(--heading);
+    font-family: var(--heading), sans-serif;
     font-weight: 650;
     color: var(--text-h);
 }

@@ -18,12 +18,16 @@ const emailLink: string = 'mailto:c.szanto@ramency.dev';
 
 export default function SocialList() {
   return (
-    <div className={styles.SocialList} >
+    <div className={styles.SocialList}>
 
-      <SocialButton id="sb-github" link={githubLink} icon={githubIcon} />
-      <SocialButton id="sb-wakatime" link={wakatimeLink} icon={wakatimeIcon} />
-      <SocialButton id="sb-discord" link={discordLink} icon={discordIcon} />
-      <SocialButton id="sb-email" link={emailLink} icon={atIcon} />
+      <div className={styles.SocialList__SubContainer}>
+        <SocialButton id="sb-github" link={githubLink} icon={githubIcon} />
+        <SocialButton id="sb-wakatime" link={wakatimeLink} icon={wakatimeIcon} />
+      </div>
+      <div className={styles.SocialList__SubContainer}>
+        <SocialButton id="sb-discord" link={discordLink} icon={discordIcon} />
+        <SocialButton id="sb-email" link={emailLink} icon={atIcon} />
+      </div>
 
     </div>
   )

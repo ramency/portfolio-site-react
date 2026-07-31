@@ -1,6 +1,7 @@
 .LangPicker {
     display: flex;
     flex-direction: row;
+    justify-content: flex-end;
 
     height: 100%;
     margin-right: 0.25em;

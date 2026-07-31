@@ -26,14 +26,14 @@ export default function SocialButton({id, link, icon}: SocialButtonProps) {
     return (
       <ToolTip initialText={t('discord.tooltip')} updatedText={t('discord.tooltip_copied')} buttonPressed={buttonPressed}>
         <button className={styles.SocialButton} id={id} onClick={() => copyDiscord(setButtonPressed)}>
-          <img src={icon} alt="icon" />
+          <img className={styles.img} src={icon} alt="icon" />
         </button>
       </ToolTip>
     )
   } else {
     return (
       <a className={styles.SocialButton} id={id} href={link}>
-        <img src={icon} alt="icon" />
+        <img className={styles.img} src={icon} alt="icon" />
       </a>
     )
   }

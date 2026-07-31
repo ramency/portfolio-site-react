@@ -1,7 +1,9 @@
 .LangButton {
     display: block;
-    min-block-size: 2svh;
+    min-height: 2svh;
     height: 90%;
+    max-height: 90%;
+    aspect-ratio: 1.03 / 0.9;
     margin: auto 0.15em;
 
     align-content: center;

@@ -1,7 +1,6 @@
 .CodeLangBadge {
     display: flex;
-    max-height: 2.5em;
-    min-height: 2.5em;
+    height: 2.7em;
     padding: 0 0.2em;
 
     justify-content: center;
@@ -15,14 +14,15 @@
 .CodeLangIconContainer {
     display: block;
     max-width: 2.3em;
-    max-height: 2.3em;
+    max-height: 2.7em;
     justify-items: center;
     align-content: center;
 }
 
 .CodeLangIcon {
     display: flex;
-    height: 2.3em;
+    height: 1.9em;
+    margin: 0 0.2em
 }
 
 .CodeLangName{

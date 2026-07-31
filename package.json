@@ -16,8 +16,8 @@
     "use-intl": "^4.13.2"
   },
   "devDependencies": {
-    "@react-buddy/ide-toolbox": "^2.5.0",
     "@eslint/js": "^10.0.1",
+    "@react-buddy/ide-toolbox": "^2.5.0",
     "@types/node": "^26.1.1",
     "@types/react": "^19.2.17",
     "@types/react-dom": "^19.2.3",

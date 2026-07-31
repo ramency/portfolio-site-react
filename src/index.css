@@ -1,12 +1,3 @@
-* {
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-}
-
-body {
-    justify-items: center;
-}
-
 :root {
     --text: rgb(54 54 54 / 0.95);
     --text-h: #1a1a1a;
@@ -17,23 +8,13 @@ body {
     --border-radius: 0.75rem;
     --border-width: clamp(0.175rem, 0.175rem, 0.25rem);
 
-    /* Device size widths */
-    --x-small-device: 600px; /* max-width */
-    --small-device: 600px; /* min-width */
-    --medium-device: 768px; /* min-width */
-    --large-device: 992px; /* min-width */
-    --x-large-device: 1200px; /* min-width */
-
     --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
     --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
     --mono: ui-monospace, Consolas, monospace;
 
     font: 1em var(--sans);
-    letter-spacing: 0.12px;
 
-    @media (max-width: 768px) {
-        font-size: 1.4em;
-    }
+    letter-spacing: 0.12px;
 
     color-scheme: light dark;
     color: var(--text);
@@ -42,10 +23,6 @@ body {
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-
-    @media (max-width: 1024px) {
-        --border-width: clamp(0.2rem, 0.2rem, 0.3rem);
-    }
 }
 
 /*
@@ -70,43 +47,51 @@ body {
 }
 */
 
-#root {
-    margin: 0 auto;
-    min-height: 95svh;
-    display: flex;
-    flex-direction: column;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html {
+    max-width: 100svw;
+    min-height: 100svh;
 }
 
 body {
-    margin: 0;
+    width: 100svw;
+    height: 100svh;
+}
+
+#root {
+    margin: 2.5svh 2.5svw;
+    width: 95svw;
 }
 
 h1,
 h2,
 h3 {
+    padding: 0.2em 0.6rem;
     font-family: var(--heading);
     font-weight: 650;
     color: var(--text-h);
 }
 
+h4, h5 {
+    padding: 0.2em 0.6rem;
+}
+
 h1 {
     font-size: 2em;
     letter-spacing: -0.06rem;
-    margin: 20px 0;
-    @media (max-width: 1024px) {
-        font-size: 24px;
-        margin: 16px 0;
-    }
+    margin: 1.25em 0;
 }
 
 h2 {
     font-size: 1.5em;
     letter-spacing: -0.04rem;
     margin: 0 0 8px;
-    @media (max-width: 1024px) {
-        font-size: 20px;
-    }
 }
 
 h3 {
@@ -121,12 +106,19 @@ img {
 
 p {
     margin: 0;
+    padding: 0.2em 1rem;
     line-height: 1.25;
     text-wrap-style: pretty;
 }
 
 a {
+    display: inline-block;
+    padding: 0 1rem;
     text-decoration: none;
     color: var(--link);
     font-weight: 500;
+}
+
+sub, sup {
+    display: inline-block;
 }

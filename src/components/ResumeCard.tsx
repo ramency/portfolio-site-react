@@ -17,9 +17,9 @@ export default function ResumeCard({id, mainCardClass}: CardProps) {
       <div className="Card__Body">
 
         <section className={styles.ResumeItem}>
-          <p><sub>{t('content.app_BBW_Abensberg.date')}</sub></p>
+          <sub>{t('content.app_BBW_Abensberg.date')}</sub>
           <h3>{t('content.app_BBW_Abensberg.title')}</h3>
-          <p><sup>{t('content.app_BBW_Abensberg.company')}</sup></p>
+          <sup>{t('content.app_BBW_Abensberg.company')}</sup>
           <ul>
             <li>{t('content.app_BBW_Abensberg.bullet_point_01')}</li>
             <li>{t('content.app_BBW_Abensberg.bullet_point_02')}</li>
@@ -28,9 +28,9 @@ export default function ResumeCard({id, mainCardClass}: CardProps) {
         </section>
 
         <section className={styles.ResumeItem}>
-          <p><sub>{t('content.etc_Rehab.date')}</sub></p>
+          <sub>{t('content.etc_Rehab.date')}</sub>
           <h3>{t('content.etc_Rehab.title')}</h3>
-          <p><sup>{t('content.etc_Rehab.company')}</sup></p>
+          <sup>{t('content.etc_Rehab.company')}</sup>
           <ul>
             <li>{t('content.etc_Rehab.bullet_point_01')}</li>
             <li>{t('content.etc_Rehab.bullet_point_02')}</li>
@@ -39,9 +39,9 @@ export default function ResumeCard({id, mainCardClass}: CardProps) {
         </section>
 
         <section className={styles.ResumeItem}>
-          <p><sub>{t('content.app_MIFCOM.date')}</sub></p>
+          <sub>{t('content.app_MIFCOM.date')}</sub>
           <h3>{t('content.app_MIFCOM.title')}</h3>
-          <p><sup>{t('content.app_MIFCOM.company')}</sup></p>
+          <sup>{t('content.app_MIFCOM.company')}</sup>
           <ul>
             <li>{t('content.app_MIFCOM.bullet_point_01')}</li>
             <li>{t('content.app_MIFCOM.bullet_point_02')}</li>
@@ -52,9 +52,9 @@ export default function ResumeCard({id, mainCardClass}: CardProps) {
         </section>
 
         <section className={styles.ResumeItem}>
-          <p><sub>{t('content.int_MIFCOM.date')}</sub></p>
+        <sub>{t('content.int_MIFCOM.date')}</sub>
           <h3>{t('content.int_MIFCOM.title')}</h3>
-          <p><sup>{t('content.int_MIFCOM.company')}</sup></p>
+          <sup>{t('content.int_MIFCOM.company')}</sup>
           <ul>
             <li>{t('content.int_MIFCOM.bullet_point_01')}</li>
             <li>{t('content.int_MIFCOM.bullet_point_02')}</li>
@@ -63,9 +63,9 @@ export default function ResumeCard({id, mainCardClass}: CardProps) {
         </section>
 
         <section className={styles.ResumeItem}>
-          <p><sub>{t('content.int_retail.date')}</sub></p>
+          <sub>{t('content.int_retail.date')}</sub>
           <h3>{t('content.int_retail.title')}</h3>
-          <p><sup>{t('content.int_retail.company')}</sup></p>
+          <sup>{t('content.int_retail.company')}</sup>
           <ul>
             <li>{t('content.int_retail.bullet_point_01')}</li>
             <li>{t('content.int_retail.bullet_point_02')}</li>
@@ -76,9 +76,9 @@ export default function ResumeCard({id, mainCardClass}: CardProps) {
         </section>
 
         <section className={styles.ResumeItem}>
-          <p><sub>{t('content.int_kindergarden.date')}</sub></p>
+          <sub>{t('content.int_kindergarden.date')}</sub>
           <h3>{t('content.int_kindergarden.title')}</h3>
-          <p><sup>{t('content.int_kindergarden.company')}</sup></p>
+          <sup>{t('content.int_kindergarden.company')}</sup>
           <ul>
             <li>{t('content.int_kindergarden.bullet_point_01')}</li>
             <li>{t('content.int_kindergarden.bullet_point_02')}</li>

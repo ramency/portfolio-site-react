@@ -1,10 +1,11 @@
 .ThemeButton {
     display: block;
     aspect-ratio: 1 / 1;
-    min-block-size: 2svh;
+    min-height: 2svh;
     height: 75%;
 
     margin: 0.25em 0.15em;
+    padding: 0;
 
     border: var(--border-width)  solid var(--border-color);
     border-radius: 40%;

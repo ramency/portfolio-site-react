@@ -1,5 +1,6 @@
 .MainContainer {
-    max-height: calc(90svh - var(--spacing));
+    --toolbar-height: clamp(2.5rem, 3svh, 5svh);
+    max-height: calc(95svh - var(--spacing) - var(--toolbar-height));
     overflow-y: hidden;
     scrollbar-color: var(--border-color) transparent;
     border-radius: var(--border-radius);

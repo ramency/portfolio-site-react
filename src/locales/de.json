@@ -43,7 +43,7 @@
             "description": "Das Better Place Community Wiki. Erstellt im Auftrag des Gründers von Bplace, einer Seite bei der man auf der Weltkarte Pixel setzen kann. Läuft mit MediaWiki in Docker Containern, wird geroutet mit Caddy, Firewall, Ports, Sicherheitsupdates etc. alles selbst eingerichtet. Außerdem diese Website, sowie zwei ältere Versionen dieser Website (Pures Typescript mit Vite & Pures Javascript).",
             "links": {
               "link_01": "\"Better Place Community Wiki\"",
-              "link_02": "\"ramency's portfolio\" >> Diese Seite auf GitHub"
+              "link_02": "\"ramency's portfolio\" → Diese Seite auf GitHub"
             }
           },
           "rust": {
@@ -90,7 +90,7 @@
             "company": "BBW St. Franziskus Abensberg - (Ohne Abschluss)",
             "bullet_point_01": "Arbeit an Projekt zur Arbeitszeiterfassung",
             "bullet_point_02": "Einrichten von Backend-Server mit PostgreSQL und Docker",
-            "bullet_point_03": "Übungsprojekt \"Kaffeemaschine\" >> Terminalbasierte Kaffeemaschine"
+            "bullet_point_03": "Übungsprojekt \"Kaffeemaschine\" → Terminalbasierte Kaffeemaschine"
           },
           "etc_Rehab": {
             "date": "20.04.2024 - 31.07.2025",

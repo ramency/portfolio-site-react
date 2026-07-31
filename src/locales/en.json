@@ -31,7 +31,7 @@
         "subtitle": "Hey! Good to see you!",
         "content": {
           "p_01": "I'm ramency. I'm known under different names too, I mainly use this one for my privacy though. Until recently I've been in an apprenticeship for software development at a rehabilitation facility.",
-          "p_02": "In the past I was able to gather quite some experience already, for example in web development, game development, emulation and embedded systems. That got me into contact with quite a few programming languages and frameworks. A couple examples are Rust, C, C#, Java, Kotlin, PHP, React, Vite, TypeScript and more. Further information in section \"Projects\"."
+          "p_02": "In the past I was able to gather quite a bit of experience already, for example in web development, game development, emulation and a tiny bit in embedded systems. That got me into contact with many different programming languages and frameworks. A couple examples are Rust, C, C#, Java, Kotlin, PHP, React, Vite, TypeScript and more. Further information in section \"Projects\"."
         }
       },
       "Projects": {
@@ -43,7 +43,7 @@
             "description": "The Better Place Community Wiki. Created by the wishes of the founder of Bplace, a site where you can draw pixels on the world map. Runs on Mediawiki in Docker containers, routing via Caddy, firewall, ports, security updates; all set up and configured on my own. Additionally, this website, as well as two older variants (one made purely with TypeScript and Vite, the other only with JavaScript.",
             "links": {
               "link_01": "\"Better Place Community Wiki\"",
-              "link_02": "\"ramency's portfolio\" >> This site on GitHub"
+              "link_02": "\"ramency's portfolio\" → This site on GitHub"
             }
           },
           "rust": {
@@ -90,7 +90,7 @@
             "company": "BBW St. Franziskus Abensberg - (No Diploma)",
             "bullet_point_01": "Work on a employee time tracking project",
             "bullet_point_02": "Set up of backend server with PostgreSQL and Docker",
-            "bullet_point_03": "Practice project \"Kaffeemaschine\" >> terminal based coffee maker"
+            "bullet_point_03": "Practice project \"Kaffeemaschine\" → terminal based coffee maker"
           },
           "etc_Rehab": {
             "date": "20.04.2024 - 31.07.2025",
@@ -132,7 +132,7 @@
             "date": "2018",
             "title": "Internships at a kindergarden",
             "company": "Städtisches Haus für Kinder, Landeshauptstadt München",
-            "bullet_point_01": "Watching 24 Children between 3 and 6 years old",
+            "bullet_point_01": "Looking after 24 Children between 3 and 6 years old",
             "bullet_point_02": "Supporting staff in daily routines",
             "bullet_point_03": "Conducting hygiene procedures"
           }
